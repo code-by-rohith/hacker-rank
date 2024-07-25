@@ -12,8 +12,6 @@ def find_trips(arr, weight):
 
     return trips
 
-
-# Example usage
 arr = [10, 20, 30, 40, 50]
 k = 60
 trips = find_trips(arr, k)
