@@ -1,6 +1,7 @@
 
 def mutate_string(s,i,c):
     list1=list(s)
+    print(list1)
     list1[i]=c
     string1="".join(list1)
 
