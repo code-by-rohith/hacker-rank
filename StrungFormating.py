@@ -11,6 +11,6 @@ def print_formatted(number):
         print(f"{decimal:>{width}} {octal:>{width}} {hexadecimal:>{width}} {binary:>{width}}")
 
 # Example usage:
-number = 1700
+number = 170
 
 print_formatted(number)
