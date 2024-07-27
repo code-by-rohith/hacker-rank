@@ -19,7 +19,7 @@ def print_rangoli(n):
 
     import string
     alphabet = string.ascii_lowercase[:n]
-    width = 4 * n - 3
+    width = 4 * n - 3 #2n*1 for char and 2*n+1 for hyphen
     lines = []
     for i in range(n):
         left_part = alphabet[n-1:i:-1]
