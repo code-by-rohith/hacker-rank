@@ -11,6 +11,7 @@ class Solution:
         return longest
 if __name__ == "__main__":
     sol = Solution()
-    s = "tamilmalayalam"
+    s = "abaab"
     result = sol.longestPalindrome(s)
     print("Longest palindromic substring:", result)
+
