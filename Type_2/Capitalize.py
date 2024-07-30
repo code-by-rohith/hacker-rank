@@ -6,7 +6,7 @@ def fun(str_list):
         result += i+" "
     return result
 
-input_str = input("Enter a string: ")
+input_str = "hi bay"
 
 str_list = input_str.split()
 
