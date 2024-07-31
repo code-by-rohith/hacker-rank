@@ -41,7 +41,7 @@ def minion_game(s):
         print("Draw")
 
 if __name__ == '__main__':
-    s = input()
+    s ="ABCDEF"
     minion_game(s)
 
 
