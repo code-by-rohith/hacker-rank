@@ -16,21 +16,20 @@ def is_valid_matrix(matrix):
     if n == 0:
         return False
     for row in matrix:
-        if sorted(row) != list(range(1, n + 1)):
+        if sorted(row) != list(range(1, n+1)):
             return False
 
     for col in range(n):
         column = [matrix[row][col] for row in range(n)]
         if sorted(column) != list(range(1, n + 1)):
             return False
-
     return True
 
 
 matrix = [
-    [1, 2, 3],
-    [1, 1, 2],
-    [1, 3, 1]
+    [1,2, 3],
+    [3, 1, 2],
+    [2, 3, 1]
 ]
 
 print(is_valid_matrix(matrix))
