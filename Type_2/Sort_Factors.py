@@ -11,7 +11,7 @@ def sort_by_factors(arr):
     return sorted(arr, key=count_factors, reverse=True)
 
 def main():
-    arr = [10, 57, 60, 89, 36]
+    arr = [100, 57, 60, 89, 36]
     print("Original array:", arr)
     sorted_arr = sort_by_factors(arr)
     print("Sorted array:", sorted_arr)
