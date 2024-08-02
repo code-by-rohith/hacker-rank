@@ -16,5 +16,6 @@ def main():
     sorted_arr = sort_by_factors(arr)
     print("Sorted array:", sorted_arr)
 
+
 if __name__ == "__main__":
     main()
