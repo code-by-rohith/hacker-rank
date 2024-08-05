@@ -3,6 +3,7 @@ num_shoes = int(input())
 shoe_sizes = list(map(int, input().split()))
 num_customers = int(input())
 shoe_inventory = Counter(shoe_sizes)
+print(shoe_inventory)
 
 total_earnings = 0
 
