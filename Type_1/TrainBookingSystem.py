@@ -124,6 +124,7 @@ def main_menu():
             train_id = system.add_train(name, source, destination, seats)
             print(f"Train added with ID: {train_id}")
 
+
         elif choice == "3":
             user_id = int(input("Enter user ID: "))
             train_id = int(input("Enter train ID: "))
