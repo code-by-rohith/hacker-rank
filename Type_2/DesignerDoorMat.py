@@ -11,6 +11,5 @@ def generate_door_mat(X, width):
         print(pattern.center(width, '-'))
 
 
-# Read input from a single line
 X, width = map(int, input().split())
 generate_door_mat(X, width)
