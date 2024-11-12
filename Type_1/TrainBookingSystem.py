@@ -25,7 +25,6 @@ class Train:
         else:
             return False
 
-
 class Booking:
     def __init__(self, booking_id, user_id, train_id):
         self.booking_id = booking_id
